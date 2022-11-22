@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  .container {
+    overflow: hidden;
+    max-width: 500px;
+    position: relative;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    img {
+      width: 500px;
+      height: 500px;
+    }
+  }
+}
+.item-hidden {
+  display: none;
+}
+.item-visible {
+  display: block;
+}
+#prev {
+  position: absolute;
+  left: 2%;
+  top: 45%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+#next {
+  position: absolute;
+  top: 45%;
+  right: 2%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 2rem;
+}
